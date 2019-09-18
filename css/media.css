@@ -634,5 +634,27 @@ font-size: 0.78rem;
 footer::after {
     display:none;
 }
-   }
+  }
+/* Edge */
+@supports (-ms-ime-align:auto) {
+  .what-we-do::before {
+     display:none;
 }
+  .how-we-works::before {
+    display:none;
+}
+.how-we-works::after{
+   display:none;
+}
+    .reviews::before {
+    display:none;
+}
+
+.reviews::after {
+     display:none;
+}
+footer::after {
+    display:none;
+}
+}
+

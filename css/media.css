@@ -615,6 +615,9 @@ font-size: 0.78rem;
 
 /*IE  */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .what-we-do::before {
+     display:none;
+}
   .how-we-works::before {
     display:none;
 }

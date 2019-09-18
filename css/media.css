@@ -612,3 +612,24 @@ font-size: 0.78rem;
         font-size: 27px;
     }
 }
+
+/*IE  */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .how-we-works::before {
+    display:none;
+}
+.how-we-works::after{
+   display:none;
+}
+    .reviews::before {
+    display:none;
+}
+
+.reviews::after {
+     display:none;
+}
+footer::after {
+    display:none;
+}
+   }
+}
